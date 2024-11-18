@@ -5,14 +5,10 @@
     padding: 0;
 }
 
-body {
-    font-family: Arial, sans-serif;
-}
-
 header {
     width: 100%;
 }
-
+/* Navbar Styling */
 .navbar {
     display: flex;
     align-items: center;
@@ -22,12 +18,12 @@ header {
     background-color: #f8f8f8;
     box-shadow: 0px 16px rgba(0, 0, 0, 0.8);
 }
-
+/* logo Styling */
 .logo {
     font-size: 3em  ;
     font-weight: bold;
 }
-
+/* Navigation Menu Styling */
 nav {
     display: flex;
     gap: 16px;
@@ -47,8 +43,7 @@ nav {
         }
     }
 }
-
-
+/* Search Button */
 .search {
     font-size: 3em;
     padding: 16px 16px;
@@ -60,23 +55,24 @@ nav {
 }
 
 
-/* Grid Container */
+/* Grid Container for Movie Cards */
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr; /* Two columns */
     gap: 16px;
     margin: 50px auto;
     max-width: 900px;
 
 }
 
-/* Large Box */
+/* Large Box - Spans two columns */
 .large-box {
     height: 600px;
     grid-column: span 2;
     display: grid;
-    grid-template-rows: 300px auto;
+    grid-template-rows: 300px auto; /* Poster and Details */
 }
+/* Poster Styling */
 .poster {
     background-color: #ddd; 
     background-size: cover; 
@@ -89,7 +85,7 @@ nav {
     background-position: top ;
     padding-bottom: 16px;
 }
-
+/* Details Section for Large Box */
 .large-box .details {
     padding: 48px 16px 48px 16px;
     display: flex;
@@ -105,21 +101,19 @@ nav {
     }
 }
 
-/* Side by Side Boxes */
+/* Side-by-Side Boxes */
 .side-by-side-box {
     display: grid;
     grid-template-rows: 350px auto;
 
 }
-
+/* Poster for Side-by-Side Boxes */
 .side-by-side-box .poster {
     height: 330px;
     padding-bottom: 16px;
     background-position: center 6%;
-
-
 }
-
+/* Details Section for Side-by-Side Boxes */
 .side-by-side-box .details {
     padding: 16px;
     font-size: 1.5em;
@@ -134,10 +128,11 @@ nav {
 }
 
 /* Vertical Boxes (Image Left, Content Right) */
+/* Vertical Boxes - Stacked Layout */
 .vertical-box {
     display: flex;
     height: 400px;
-    grid-column: span 2;
+    grid-column: span 2;  /* Spans two columns */
 }
 
 .vertical-box .poster {
@@ -145,6 +140,7 @@ nav {
     width: 70%; 
 
 }
+/* Poster Positions */
 #one{
     background-position: center 0%;
 }
@@ -154,6 +150,8 @@ nav {
 #three{
     background-position: center 45%;
 }
+
+/* Details Section for Vertical Boxes */
 .vertical-box .details {
     padding: 16px;
     width: 60%;
@@ -169,14 +167,14 @@ nav {
     }
 }
 
-/* Buttons */
+/* General Button Styling */
 button {
     border: none;
     padding: 10px 20px;
     cursor: pointer;
 }
 
-
+/* Responsive Design for Tablets */
 /* ....................(tablet)............................ */
 @media (max-width: 1024px) {
 
@@ -231,6 +229,7 @@ button {
 
 
 }
+/* Responsive Design for Mobile Devices */
 /* ....................(mobile)............................ */
 
 @media (max-width: 720px) {
