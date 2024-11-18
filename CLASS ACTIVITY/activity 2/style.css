@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-family: 'Bubblegum Sans', cursive;
+}
+/* Background and general layout for header */
+.bg{
+    height: 97.5vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4) , rgba(0, 0, 0, 0.4)),url(image/backg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* nav bar start*/
+nav{
+    padding: 20px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.2);
+    ul li{
+        display: inline-block;
+        list-style: none;
+        margin-left: 20px;
+        a {
+            text-decoration: none;
+            color: #face9c;
+            font-weight: 600;
+            font-size: 25px;
+            text-shadow: 1px 1px #000;
+            padding-top: 5px;
+        }
+    }
+    .logo a{
+        text-decoration: none;
+        color: #face9c;
+        cursor: pointer;
+        font-size: 30px;
+        text-shadow: 2px 2px #000;
+    }
+}
+.bar a:hover{
+    color:#000;
+    border-radius: 10px;
+}
+/* footer style */
+footer{
+    background-color: #ab7ed0;
+    text-align: center;
+  }
