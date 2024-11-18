@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  background-color: black;
+}
+h1{
+  text-align: center;
+  padding: 15px 0 20px 10px;
+  color: aqua;
+  font-size: 45px;
+}
+.container{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 15px; 
+  align-items: center;
+  margin-left: 10%;
+
+}
+img{
+  max-height: 280px;
+  border: 2px solid aqua;
+  margin-bottom: 5px;
+}
+
+footer{
+  color: aliceblue;
+  text-align: center;
+  margin: 1% 0 0 6%;
+}
