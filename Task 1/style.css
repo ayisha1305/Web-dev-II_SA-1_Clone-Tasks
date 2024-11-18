@@ -38,6 +38,7 @@ header{
     }
 
 }
+/* --- Main styles --- */
 main{
     background-color: white;
 }
@@ -127,6 +128,8 @@ footer{
     padding: 50px 0 50px 0 ;
     text-align: center;
 }
+
+/* --- Responsive styles --- */
 /* ----------------------------------(TABLET_WIREFRAME)-------------------------------------- */
 @media (min-width: 721px) and (max-width: 1024px){
     body{
@@ -220,6 +223,7 @@ footer{
     }
 }
 
+/* --- Responsive styles --- */
 /* ----------------------------------(LARGE_MOBILE_WIREFRAME)-------------------------------------- */
 @media (min-width: 540px) and (max-width: 720px){
     body{
@@ -319,6 +323,8 @@ footer{
         text-align: center;
     }
 }
+
+/* --- Responsive styles --- */
 /* ----------------------------------(SMALL_MOBILE_WIREFRAME)-------------------------------------- */
 @media (min-width: 360px) and (max-width: 539px){
     body{
