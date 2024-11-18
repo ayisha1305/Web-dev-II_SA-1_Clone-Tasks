@@ -2,12 +2,14 @@
   margin: 0;
   background-color: black;
 }
+/* Style for the main heading */
 h1{
   text-align: center;
   padding: 15px 0 20px 10px;
   color: aqua;
   font-size: 45px;
 }
+/* Grid container styling */
 .container{
   display: grid;
   grid-template-columns: auto auto auto auto;
@@ -16,12 +18,13 @@ h1{
   margin-left: 10%;
 
 }
+/* Styling for images */
 img{
   max-height: 280px;
   border: 2px solid aqua;
   margin-bottom: 5px;
 }
-
+/* Footer styling */
 footer{
   color: aliceblue;
   text-align: center;
