@@ -1,0 +1,61 @@
+/* Define Color Variables */
+/* Body Background with fonts */
+body {
+  background: radial-gradient(#4DCCBD, #4DCCBD, #231651);
+  font-family: "Lato", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Teko", sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #070410;
+  box-shadow: 0px 1px 10000px #FFFFFF;
+}
+
+/* Logo Styling */
+.logo {
+  color: #FFFFFF;
+}
+
+nav ul li a {
+  color: #FFFFFF;
+}
+
+/* Navigation Hover Effects */
+nav ul li a:hover {
+  color: #EEF36A;
+}
+
+/* Search Button Styling */
+.search {
+  background-color: #EEF36A;
+  color: #070410;
+  font-weight: bold;
+  font-family: "Teko", sans-serif;
+}
+
+.search:hover {
+  background-color: #4DCCBD;
+  color: #FFFFFF;
+}
+
+/* Grid Container Styling */
+.grid-container .box {
+  background-color: #FFFFFF;
+  box-shadow: 5px 5px 80px #EEF36A;
+}
+
+/* Button Styling */
+button {
+  background-color: #4DCCBD;
+  color: #070410;
+  font-family: "Teko", sans-serif;
+}
+
+button:hover {
+  background-color: #231651;
+  color: #FFFFFF;
+}/*# sourceMappingURL=design.css.map */

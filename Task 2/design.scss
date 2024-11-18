@@ -1,0 +1,64 @@
+/* Define Color Variables */
+$col1 : #4DCCBD;
+$col2 : #231651;
+$col3 : #FFFFFF;
+$col4 : #EEF36A;
+$col5 : #070410;
+
+/* Body Background with fonts */
+body{
+    background: radial-gradient($col1,$col1, $col2);
+    font-family: "Lato", sans-serif;
+}
+// fonts
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Teko", sans-serif;
+}
+/* Navbar Styling */
+.navbar{
+    background-color: $col5;
+    box-shadow: 0px 1px 10000px $col3;
+}
+/* Logo Styling */
+.logo{
+    color: $col3;
+}
+nav ul li a{
+    color: $col3;
+
+}
+/* Navigation Hover Effects */
+nav ul li a:hover{
+    color: $col4;
+}
+/* Search Button Styling */
+.search{
+    background-color: $col4;
+    color: $col5;
+    font-weight: bold;
+    font-family: "Teko", sans-serif;
+}
+
+.search:hover{
+    background-color: $col1;
+    color: $col3;
+}
+
+/* Grid Container Styling */
+.grid-container .box{
+    background-color: $col3;
+    box-shadow: 5px 5px 80px $col4;
+}
+/* Button Styling */
+button {
+    background-color:$col1;
+    color: $col5;
+    font-family: "Teko", sans-serif;
+    
+}
+
+button:hover {
+    background-color: $col2;
+    color: $col3;
+}
+
